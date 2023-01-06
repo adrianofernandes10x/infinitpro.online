@@ -89,6 +89,14 @@
          }, 60000); 
       </script>
 
+   <script language="JavaScript">
+window.addEventListener("beforeunload", function(event) { 
+    event.preventDefault();
+    event.returnValue = "Vai perder a oportunidade?"; 
+    return "Vai perder a oportunidade?";
+});
+</script>
+
       <script>document.addEventListener("contextmenu", e => e.preventDefault());</script>
       <!--
          back redirect
