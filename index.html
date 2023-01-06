@@ -29,7 +29,7 @@
       text-decoration: underline;
       text-transform: uppercase;
       /*background: linear-gradient(90deg, rgb(0, 99, 244) 0%, rgb(0, 191, 57) 100%);*/
-      background:  #d2003c;
+      background:  #ff0000; /* #d2003c;*/
       border: solid 2px #fff;
       border-radius: 6px;
       -webkit-transform: perspective(1px) translateZ(0);
@@ -78,18 +78,22 @@
       <div class="wistia_embed wistia_async_jwgoxw1580" style="height:700px;position:relative;width:100%;">
          <div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/jwgoxw1580/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div>
       </div>
+
+
       <div style="width:100%; height: 50px; background: transparent; opacity: 1; z-index:2; margin-top: -50px; position:relative;"></div>
 
-      <a href="" class="botao pulse" target="_blank" href="https://checkout.mycheckout.com.br/checkout/63ab241e9c5b5a005d97b3a1">COMPRAR AGORA</a>
+      <a class="botao pulse" target="_blank" href="https://checkout.mycheckout.com.br/checkout/63ab241e9c5b5a005d97b3a1">COMPRAR AGORA</a>
  
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
       <script>
          $('.botao').hide();
          setTimeout(function() {
          $('.botao').show();
-         }, 10); /*60000
+         }, 60000); 
       </script>
+
       <script>document.addEventListener("contextmenu", e => e.preventDefault());</script>
       <!--
          back redirect
